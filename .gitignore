@@ -1,0 +1,6 @@
+__pycache__
+/docker-compose.yml
+/config
+/venv
+# Include an example configuration
+!/config/config.example.yml

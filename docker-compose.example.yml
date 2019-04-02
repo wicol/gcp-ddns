@@ -1,0 +1,15 @@
+version: '3.6'
+services:
+  gcp_ddns:
+    image: gcp-ddns
+    build: .
+    container_name: gcp-ddns
+    restart: always
+    volumes:
+      - ./config:/app/config
+    environment:
+      # These are the default values
+      # CONFIG_PATH: config/config.yml
+      # AUTH_PATH: config/auth.json
+      # LAST_IP_PATH: config/last_ip.txt
+      # MY_IP_URL: http://ifconfig.co/ip

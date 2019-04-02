@@ -1,0 +1,3 @@
+requests
+PyYAML
+google-cloud-dns
